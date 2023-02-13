@@ -23,7 +23,7 @@ Useful Commands to know:
 |**pwd**|present working directory|
 |**cat**|concatenate and display file|
 |**echo**|used to display contents of variables|
-|**man**|display manual|
+|**man**|display manual/ documentation|
 |**man ls**|display the options for ls such as ls -l in the manual|
 |**exit**|close and exit the terminal|
 |**clear**|clears the screen|
@@ -31,3 +31,20 @@ Useful Commands to know:
 - prompt $
 - ~ indicates the home directory
 - superuser is the root acount and is different to the root of the file structure
+- $PATH controls my search path
+    - which gives me the full path to commands
+
+- enter to move down a multi-page layout by 1 line
+- space to page down
+- g and shift g to go to top and bottom
+- q to end the multipage layout
+
+## Help
+
+- help echo
+    - in git bash will help me with how the echo command works
+- man -k SEARCH_TERM
+    - searches for help in the manual for the search term
+        - eg man -k calendar or man -k echo
+            - then i can type man + the program names it brought up to find out about the programs
+    - doesn't work in gitbash
