@@ -4,17 +4,20 @@
 
 Some useful file structures to know:
 
-|  |root is the top of the file system heirarchy|
-| bin|binary files or executables (executable programs)|
-| etc|system configuration files|
-| home|user home directories|
-| opt|optional or 3rd party software|
-| tmp|temporary space, cleared at reboot|
-| usr|user related programs|
-| var|variable data such as log files|
+| / |root is the top of the file system heirarchy |
+|---|---|
+| /bin|binary files or executables (executable programs)|
+| /etc|system configuration files|
+| /home|user home directories|
+| /opt|optional or 3rd party software|
+| /tmp|temporary space, cleared at reboot|
+| /usr|user related programs|
+| /var|variable data such as log files|
 
 Useful Commands to know:
 
+| | |
+|---|---|
 |**ls**|list|
 |**cd**|change working directory|
 |**pwd**|present working directory|
