@@ -2,6 +2,11 @@
 
 ### Learning about Linux command line
 
+. current directory
+.. parent directory
+/ directory separator
+./ command to execute a command in current directory which is why ./ brings up the files to ink to in VScode when I am coding
+
 Some useful file structures to know:
 
 | / |root is the top of the file system heirarchy |
@@ -23,6 +28,7 @@ Useful Commands to know:
 |**pwd**|present working directory|
 |**cat**|concatenate and display file|
 |**echo**|used to display contents of variables|
+|**echo $OLDPWD**|brings up the prvious directory I was in|
 |**man**|display manual/ documentation|
 |**man ls**|display the options for ls such as ls -l in the manual|
 |**exit**|close and exit the terminal|
