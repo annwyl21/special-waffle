@@ -1,0 +1,13 @@
+hello
+more words
+
+@annwyl21 ➜ /workspaces/special-waffle (main) $ mkdir test
+@annwyl21 ➜ /workspaces/special-waffle (main) $ touch test/file.txt
+@annwyl21 ➜ /workspaces/special-waffle (main) $ echo hello > test/file.txt
+@annwyl21 ➜ /workspaces/special-waffle (main) $ echo more words >> test/file.txt
+@annwyl21 ➜ /workspaces/special-waffle (main) $ mkdir newtest
+@annwyl21 ➜ /workspaces/special-waffle (main) $ cp test/file.txt newtest/newfile.txt
+@annwyl21 ➜ /workspaces/special-waffle (main) $ cat newtest/newfile.txt
+hello
+more words
+
