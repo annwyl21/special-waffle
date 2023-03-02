@@ -1,4 +1,4 @@
-# List Command
+# List Command ('dir' in windows)
 
 ## List in long-form
 ``` ls -l ```
