@@ -19,6 +19,11 @@ Some useful file structures to know:
 | /usr|user related programs|
 | /var|variable data such as log files|
 
+[Find](./find.md) files or directories:
+- `find [path] [expression]`
+- `find -iname out.txt`
+- `locate [filename]`
+
 Useful Commands to know:
 
 | | |Examples|
