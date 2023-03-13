@@ -67,6 +67,8 @@ Useful Commands to know:
 - `q` to end the multipage layout
 - *REPL* Read, Evaluate, Print Loop
 
+[Process Management](./process_management.md)
+
 *Variables*
 
 - `my_path=/home` to store a variable called my_path with my home path
