@@ -11,7 +11,7 @@
 - files and directories
 - `mv -i file1` interactive mode, will ask if the new file already exists
 
-# tar
+# tar - tape archive
 
 ![tar command](./tar.jpg "tar command")
 to create a back up or archive the files as a collection
