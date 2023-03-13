@@ -40,3 +40,20 @@ Setting permissions in binary
 
 ![Permissions example using numeric values](./permissions_example.jpg "Permissions Example")
 
+- chgrp change group of a file
+- `chgrp sales sales.data`
+- placing the sales file into the sales group so people in the sales group have the correct permissions for that file
+
+# Too Abstract at this stage of my learning...
+- umask subtracts permissions but tbh it is getting a bit abstract now as I have no tangible example or reason to do any of this
+- octal subtraction
+- common umask modes 022, 002, 077, 007
+- special modes setuid, set gid, sticky
+- umask 0022 is the same as umask 022
+
+examples:
+- cd into my directory
+- `umask`
+- shows me 0022
+- `umask -S`
+- shows me u=rwx, g=rx, o=rx
