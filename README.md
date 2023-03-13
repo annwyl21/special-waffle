@@ -23,7 +23,7 @@ Useful Commands to know:
 
 | | |Examples|
 |---|---|---|
-|`ls`|list|-|
+|`ls`|[list](./lists_learning.md)|-|
 |`cd`|change working directory|-|
 |`pwd`|present working directory|-|
 |`cat`|concatenate and display THE CONTENTS OF file|`cat README.md`|

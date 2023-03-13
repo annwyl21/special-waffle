@@ -10,7 +10,7 @@ example:
 
 | | |
 |-|-|
-|-rw-rw-w--|Permissions|
+|-rw-rw-w--|[Permissions](./permissions.md)|
 |1|Number of links to the file or directory|
 |jason|Owner name|
 |users|group name|
