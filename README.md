@@ -31,7 +31,7 @@ Useful Commands to know:
 |`ls`|[list](./lists_learning.md)|-|
 |`cd`|change working directory|-|
 |`pwd`|present working directory|-|
-|`cat`|concatenate and display THE CONTENTS OF file|`cat README.md`|
+|`cat`|concatenate and [display](./display.md) THE CONTENTS OF file|`cat README.md`|
 |`echo`|used to display contents of variables|`echo $my_variable`|
 |`echo $OLDPWD`|brings up the prvious directory I was in|-|
 |`man`|display manual/ documentation|-|
