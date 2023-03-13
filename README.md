@@ -50,6 +50,8 @@ Useful Commands to know:
 |`>`|write or overwrite into a file|`echo hello > file.txt`|
 |`>>`|append to a file|`echo more words >> file.txt`|
 
+[Files - creating, moving, copying](./filestuff.md)
+
 - prompt $
 - ~ indicates the home directory
 - superuser is the root acount and is different to the root of the file structure
