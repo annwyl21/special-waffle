@@ -10,7 +10,7 @@ The first line tells Unix that the file is to be executed by /bin/sh
 echo '#!/bin/sh' > my-script.sh
 ```
 
-add 'echo Hello World' to the shell script file
+appendecho 'echo Hello World' to the shell script file
 ```bash
 echo 'echo Hello World' >> my-script.sh
 ```
@@ -40,4 +40,19 @@ my [first](./first.sh) shell script
 $ chmod 755 first.sh
 $ ./first.sh
 ```
+
+- basic echo commands
+    - [my_script.sh](./my-script.sh)
+    - [first.sh](./first.sh)
+    - [first2.sh](./first2.sh)
+- variables
+    - [var.sh](./var.sh)
+    - [var2.sh](./var2.sh)
+    - [myvar2.sh](./var.sh)
+        - need to `export $MYVAR` so it registers outside the program
+    - . (dot) command 
+        - In order to receive environment changes back from the script, we must source the script - this effectively runs the script within our own interactive shell, instead of spawning another shell to run it.  We can source a script via the "." (dot) command, now when the MYVAR is changed in the script is is remembered in the shell environment.
+        - `$ . ./myvar2.sh`
+    - [variable.sh](./variable.sh)
+
 
