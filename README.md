@@ -2,6 +2,9 @@
 
 ### Learning about Linux command line
 
+### Quick Link to 
+[Shell Scripting](./shell_scripting.md)
+
 . current directory
 .. parent directory
 / directory separator
