@@ -71,8 +71,29 @@ $ ./first.sh
                 mkdir rc${runlevel}.d
             done
             ```
-
-
+- test/ Conditionals
+    - `[`
+    - `type [` 
+        - [ is a built-in (program/ function/ method)
+    - [test.sh](./test.sh)
+        - `$ X=5`
+        - `;` can be used to join lines of code
+        - `\` says this is not the end of the line, the following line is part of the current line
+        - `-d FILE` True if file is a directory
+        - `-e FILE` True if file exists
+        - `-f FILE` True if file exists and is a regular file
+        - `-r FILE` True if file is readable by you
+        - `-s FILE` True if file exists and is not empty
+        - `-w FILE` True if the file is writeable by you
+        - `-x FILE` True if the file is executable by you
+    - String Operator (tests)
+        - `-z STRING` True if string is empty
+        - `-n STRING` True if string is not empty
+        - `STRING1=STRING2` True if the strings are equal
+        - `STRING1!=STRING2` True if the strings are not equal
+    - Arithmatic Operators (tests)
+        - `eq` equal, `ne` not equal
+        - `lt` <, `le` <=, `gt` >, `ge` >=
 
 
 
