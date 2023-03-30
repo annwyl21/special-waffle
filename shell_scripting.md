@@ -5,7 +5,7 @@ https://www.shellscript.sh/?utm_content=cmp-true
 
 create a file called my-script.sh and put '#!/bin/sh' in that file
 
-The first line tells Unix that the file is to be executed by /bin/sh
+The first line tells Unix that the file is to be executed by /bin/sh, could also be /bin/bash. The first part is the 'shebang', sharp+bang
 ```bash
 echo '#!/bin/sh' > my-script.sh
 ```
@@ -45,7 +45,7 @@ $ ./first.sh
     - [my_script.sh](./my-script.sh)
     - [first.sh](./first.sh)
     - [first2.sh](./first2.sh)
-- variables
+- variables (names are UPPER by convention, case sensitive, can't start with a digit)
     - [var.sh](./var.sh)
     - [var2.sh](./var2.sh)
     - [myvar2.sh](./var.sh)
@@ -54,5 +54,14 @@ $ ./first.sh
         - In order to receive environment changes back from the script, we must source the script - this effectively runs the script within our own interactive shell, instead of spawning another shell to run it.  We can source a script via the "." (dot) command, now when the MYVAR is changed in the script is is remembered in the shell environment.
         - `$ . ./myvar2.sh`
     - [variable.sh](./variable.sh)
+- loops
+    - [for.sh](./for.sh)
+    - line breaks matter
+    - [for2.sh](./for2.sh)
+    - [while.sh](./while.sh)
+    
+
+
+
 
 

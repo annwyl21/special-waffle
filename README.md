@@ -1,6 +1,11 @@
 # special-waffle
 
-### Learning about Linux command line
+### Learning about Linux command line 
+
+Special Characters that are still interpreted by the shell, even when in double quotes and requrie a backslash escape character
+```bash
+" $ \`
+```
 
 ### Quick Link to 
 [Shell Scripting](./shell_scripting.md)
