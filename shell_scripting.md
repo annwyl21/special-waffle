@@ -59,7 +59,20 @@ $ ./first.sh
     - line breaks matter
     - [for2.sh](./for2.sh)
     - [while.sh](./while.sh)
-    
+    - [whil2.sh](./while2.sh)
+    - [while3.sh](./while3.sh)
+        - reads the file line by line but then fails to assign the language properly!
+    - loop code can be shortened
+        - `mkdir rc{0,1,2,3,4,5,6,S}.d`
+        - instead of
+            ```bash
+            for runlevel in 0 1 2 3 4 5 6 S
+            do
+                mkdir rc${runlevel}.d
+            done
+            ```
+
+
 
 
 
